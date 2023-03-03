@@ -1,0 +1,270 @@
+@font-face {
+    font-family: montser;
+    src: url(../fonts/Montserrat/static/Montserrat-Black.ttf);
+}
+
+@font-face {
+    font-family: montez;
+    src: url(../fonts/Montez/Montez-Regular.ttf);
+}
+
+@font-face {
+    font-family: ubentu;
+    src: url(../fonts/Ubuntu/Ubuntu-Light.ttf);
+}
+
+body {
+    margin: 0px;
+}
+.dogD{
+    font-size: 1rem;
+    font-family: ubentu;
+    color: white;
+}
+#firstB {
+
+    background-color:#ff4c68;
+}
+
+.navbar {
+
+    margin-bottom: 10%;
+}
+
+.imgb1 {
+
+    height: 1.5625rem;
+    width: 1.5625rem;
+
+}
+
+.download-btn {
+    margin-top: 3.125rem;
+    margin-left: 0.625rem;
+}
+
+
+#firstB h1 {
+    font-family: montser;
+    line-height: 1.1;
+    font-size: 3rem;
+    font-weight: bolder;
+    color: white;
+}
+
+.container-fluid {
+    padding: 3% 15% 7%;
+}
+
+.navbar-brand {
+    animation-name: tindogna;
+    animation-duration: 7s;
+    animation-fill-mode: forwards;
+    font-family: montez;
+    font-size: 3.125rem;
+    color: black;
+}
+@keyframes tindogna {
+    0%{
+       margin-left: 0px;
+    }
+    100%{
+       margin-left: 50px;
+    }
+}
+
+.navbar-nav {
+    font-family: ubentu;
+    font-size: 1.25rem;
+
+}
+
+.nav-item {
+    padding: 15px;
+}
+
+.iphone6 {
+    /* top:120px; */
+    transform: rotate(22deg);
+    width: 20%;
+    position: absolute;
+
+}
+
+#features {
+    padding: 5%;
+
+    text-align: center;
+    position: relative;
+    background-color: #fff;
+    z-index: 1;
+}
+
+.icon {
+    color: #ff4c68;
+    margin-bottom: 50px;
+}
+
+.div1 {
+    padding: 5%;
+}
+
+#features h3 {
+    font-family: montser;
+    font-size: 1.2rem;
+
+}
+
+.icon:hover {
+    color: orange;
+}
+
+#features p {
+    color: grey;
+}
+
+#testimonials {
+    padding: 1% 15%;
+
+    text-align: center;
+    background-color: #ef8172;
+}
+
+.img-test {
+    border-radius: 100%;
+    margin: 20px;
+    width: 10%;
+}
+
+#testimonials h2 {
+    font-family: montser;
+    color: white;
+
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#press {
+    background-color: #ef8172;
+    text-align: center;
+    padding: 3%;
+}
+
+.press-logo {
+    width: 16%;
+    padding: 10px;
+    margin: 20px 20px;
+}
+
+#pricing {
+    margin-top: 5%;
+    text-align: center;
+}
+
+.h22,
+.pp {
+
+    font-family: montser;
+}
+
+.pp {
+    font-family: ubentu;
+}
+
+.card {
+    display: inline-block;
+    width: 100%;
+
+}
+
+.p-p {
+    font-family: ubentu;
+}
+
+.p-h2 {
+    font-family: montser;
+}
+
+.bt,
+.bbt {
+    width: 100%;
+}
+
+.pr-div {
+    padding: 5%;
+    margin-right: 0%;
+}
+
+@media(max-width:800px) {
+    .giphy{
+        height: 68px;
+        width: 68px;
+        margin-left: 5%;
+    }
+    #testimonials h2 {
+        font-size: 1rem;
+    }
+
+    .iphone6 {
+        position: static;
+        padding-top: 22px;
+        width: 55%;
+        transform: rotate(0deg);
+    }
+
+    #firstB {
+        text-align: center;
+    }
+
+    .img-test {
+        width: 50%;
+    }
+
+    .press-logo {
+        width: 30%;
+    }
+
+    .om {
+        padding-bottom: 5%;
+    }
+
+    #cta h3 {
+        font-size: small;
+        font-size: 2rem;
+    }
+}
+
+#cta {
+    background-color: #ff4c68;
+    text-align: center;
+
+    width: auto;
+    padding: 7% 20%;
+}
+
+#cta h3 {
+    font-family: montser;
+    color: white;
+
+}
+
+#footer {
+
+    text-align: center;
+    padding: 10%;
+    background-color: #EFA3C8;
+}
+
+.iconnn {
+    padding: 1.25%;
+}
+.giphy{
+    height: 80px;
+    width: 80px;
+    border-radius: 80%;
+    padding: 10px;
+    display: block;
+    margin-left: 50%;
+}
